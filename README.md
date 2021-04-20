@@ -23,7 +23,7 @@ A command line tool for exporting World of Warcraft's various DB files to SQL an
 
 Exporting the current directory to SQL with foreign keys and table drop:
 
-`MyDBC.exe --c "Server=localhost;Database=test;Uid=root;Pwd=;" --drop true --fk=true`
+`MyDBC.exe --c "Server=localhost;Database=test;Uid=root;Pwd=;" --drop true --fk`
 
 Exporting the current directory to CSV:
 
